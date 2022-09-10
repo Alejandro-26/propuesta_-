@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+body{
+    position: inherit;
+
+ 
+}
+
+.container{
+    width: 100%;    
+    height: 100vh;
+    background-image: url(imagenes/fondo.jpeg);
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+} 
+.parrafo{
+    text-align:center;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 5%;
+}
+#Sibtn{
+    margin:0 10px 50px 42%;
+    margin-top: 20%;
+    height: 30px;
+    width: 100px;
+    box-shadow: 5px 5px 15px #ff0000;
+
+}
+
+#Nobtn{
+    position: absolute;
+    margin-top: 20%;
+    height: 30px;
+    width: 110px;
+    box-shadow: 5px 5px 15px #ff0000;
+}
+@media screen and (max-width:480px){
+    
+    .container{
+        background-position: center;
+}
+    #Sibtn{
+        margin: 0 10px 50px 22%;
+        margin-top: 50%;
+    }
+    #Nobtn{
+        margin-top: 50%;
+    }
+}
